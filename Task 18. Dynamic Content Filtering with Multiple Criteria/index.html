@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dynamic Content Filtering</title>
+<link rel="stylesheet" href="styles.css">
+<script src="script.js" defer></script>
+</head>
+<body>
+
+<div id="filter-options">
+  <label for="category-select">Category:</label>
+  <select id="category-select">
+    <option value="">All</option>
+    <option value="Home">Home</option>
+    <option value="Apparel">Apparel</option>
+    <option value="Electronics">Electronics</option>
+  </select>
+
+  <label>Tags:</label>
+  <label><input type="checkbox" class="tag-checkbox" value="eco-friendly"> Eco-friendly</label>
+  <label><input type="checkbox" class="tag-checkbox" value="new"> New</label>
+  <label><input type="checkbox" class="tag-checkbox" value="sale"> Sale</label>
+</div>
+
+<div id="product-list"></div>
+
+</body>
+</html>
